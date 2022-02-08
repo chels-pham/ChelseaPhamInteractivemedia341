@@ -1,0 +1,164 @@
+.logo {
+    padding-bottom: 2px;
+    padding-top: 2px;
+    background-color: rgb(29, 155, 240);
+    width: 50px;
+	height: 50px;
+    position: relative;
+    left: 120px;
+    border-radius: 50%;
+  }
+
+  .home {
+    padding: 12px;
+    background-color: rgb(231, 231, 232);
+    width: 117px;
+	height: 30px;
+    position: relative;
+    top: 10px;
+    left: 120px;
+    border-radius: 59999px;
+  }
+
+  .explore {
+    padding: 12px;
+    background-color: rgb(231, 231, 232);
+    width: 135px;
+	height: 30px;
+    position: relative;
+    top: 22px;
+    left: 120px;
+    border-radius: 59999px;
+  }
+
+  .notification {
+    padding: 12px;
+    background-color: rgb(231, 231, 232);
+    width: 170px;
+	height: 30px;
+    position: relative;
+    top: 34px;
+    left: 120px;
+    border-radius: 59999px;
+  }
+
+  .message {
+    padding: 12px;
+    background-color: rgb(231, 231, 232);
+    width: 145px;
+	height: 30px;
+    position: relative;
+    top: 46px;
+    left: 120px;
+    border-radius: 59999px;
+  }
+
+  .bookmark {
+    padding: 12px;
+    background-color: rgb(231, 231, 232);
+    width: 150px;
+	height: 30px;
+    position: relative;
+    top: 58px;
+    left: 120px;
+    border-radius: 59999px;
+  }
+
+  .lists {
+    padding: 12px;
+    background-color: rgb(231, 231, 232);
+    width: 117px;
+	height: 30px;
+    position: relative;
+    top: 70px;
+    left: 120px;
+    border-radius: 59999px;
+  }
+
+  .profile {
+    padding: 12px;
+    background-color: rgb(231, 231, 232);
+    width: 125px;
+	height: 30px;
+    position: relative;
+    top: 82px;
+    left: 120px;
+    border-radius: 59999px;
+  }
+
+  .more {
+    padding: 12px;
+    background-color: rgb(231, 231, 232);
+    width: 115px;
+	height: 30px;
+    position: relative;
+    top: 94px;
+    left: 120px;
+    border-radius: 59999px;
+  }
+
+  .tweet {
+    padding: 12px;
+    background-color: rgb(29, 155, 240);
+    width: 185px;
+	height: 30px;
+    position: relative;
+    top: 106px;
+    left: 120px;
+    border-radius: 59999px;
+  }
+
+  .account {
+    padding: 12px;
+    background-color: rgb(231, 231, 232);
+    width: 210px;
+	height: 35px;
+    position: relative;
+    top: 145px;
+    left: 120px;
+    border-radius: 59999px;
+  }
+  
+  .search-bar {
+    padding-bottom: 2px;
+    padding-top: 2px;
+    background-color: rgb(231, 231, 232);
+    width: 500px;
+	height: 42px;
+    position: absolute;
+    top: 10px;
+    left: 425px;
+    border-radius: 59999px;
+  }
+  
+  .image {
+    padding: 12px;
+    background-color: rgb(231, 231, 232);
+    width: 598px;
+	height: 336.38px;
+    position: absolute;
+    top: 110px;
+    left: 390px;
+  }
+
+  .suggestions {
+    padding: 12px;
+    background-color: rgb(231, 231, 232);
+    width: 350px;
+	height: 320px;
+    position: absolute;
+    top: 20px;
+    left: 1045px;
+    border-radius: 15px;
+  }
+
+  .messaging {
+    padding: 12px;
+    background-color: rgb(231, 231, 232);
+    width: 350px;
+	height: 320px;
+    position: fixed;
+    top: 700px;
+    left: 1115px;
+    border-radius: 15px;
+  }
