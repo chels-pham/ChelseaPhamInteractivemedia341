@@ -29,7 +29,7 @@ h3 {
     left: 120px;
 }
 
-.container {
+  .container {
     padding: 12px;
     background-color: rgb(228, 233, 239);
     width: 250px;
@@ -62,9 +62,33 @@ h3 {
 .part1 {
     font-family: 'helvetica';
     font-size: 15px;
-    color: rgb(19, 45, 72);
+    color: rgb(245, 249, 252);
+    background-color: rgb(19, 45, 72);
+    width: 1340px;
+	height: 25px;
     position: relative;
-    top: 60px;
+    left: 120px;
+}
+
+.part2 {
+    font-family: 'helvetica';
+    font-size: 15px;
+    color: rgb(245, 249, 252);
+    background-color: rgb(19, 45, 72);
+    width: 1340px;
+	height: 25px;
+    position: relative;
+    left: 120px;
+}
+
+.part3 {
+    font-family: 'helvetica';
+    font-size: 15px;
+    color: rgb(245, 249, 252);
+    background-color: rgb(19, 45, 72);
+    width: 1340px;
+	height: 25px;
+    position: relative;
     left: 120px;
 }
 
