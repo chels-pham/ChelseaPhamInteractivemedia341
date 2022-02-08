@@ -76,5 +76,6 @@ p {
 
 img {
     position: relative;
-    left: 105px;
+    left: 135px;
+    border-radius: 15px;
 }
