@@ -1,0 +1,92 @@
+.box1 {
+    width: 40px;
+    border: 2px dashed black;
+    padding: 30px;
+    margin: 20px;
+}
+
+.box2 {
+    width: 40px;
+    border: 2px dashed black;
+    padding: 30px;
+    margin: 20px;
+    position: relative; top: 5px; left: 110px;
+}
+
+.box3 {
+    width: 40px;
+    border: 2px dashed black;
+    padding: 30px;
+    margin: 20px;
+    position: relative; top: 5px; left: 220px;
+}
+
+.box4 {
+    width: 40px;
+    border: 2px dashed black;
+    padding: 30px;
+    margin: 20px;
+    position: relative; top: 5px; left: 330px;
+}
+
+.box5 {
+    width: 40px;
+    border: 2px dashed black;
+    padding: 30px;
+    margin: 20px;
+    position: relative; top: 5px; left: 440px;
+}
+
+.box6 {
+    width: 40px;
+    border: 2px dashed black;
+    padding: 30px;
+    margin: 20px;
+    position: relative; top: 5px; left: 550px;
+}
+
+.box7 {
+    width: 40px;
+    border: 2px dashed black;
+    padding: 30px;
+    margin: 20px;
+    position: relative; top: 5px; left: 660px;
+}
+
+.box8 {
+    width: 40px;
+    border: 2px dashed black;
+    padding: 30px;
+    margin: 20px;
+    position: relative; top: 5px; left: 770px;
+}
+
+.box9 {
+    width: 40px;
+    border: 2px dashed black;
+    padding: 30px;
+    margin: 20px;
+    position: relative; top: 5px; left: 880px;
+}
+
+.box10 {
+    width: 40px;
+    border: 2px dashed black;
+    padding: 30px;
+    margin: 20px;
+    position: relative; top: 5px; left: 990px;
+}
+
+.box11 {
+    width: 40px;
+    border: 2px dashed black;
+    padding: 30px;
+    margin: 20px;
+    position: relative; top: 5px; left: 1100px;
+}
+
+p {
+    border-style: solid;
+    border-color: black;
+    padding: 100px;
+}

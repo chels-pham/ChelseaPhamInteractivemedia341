@@ -1,0 +1,11 @@
+.box1 {
+    border: 10px solid;
+    border-color: black;
+    padding: 20px;
+}
+
+.box2 {
+    border: 2px dashed;
+    border-color: black;
+    padding: 20px;
+}
