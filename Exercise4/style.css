@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+}
+
+.canvas {
+  width: 900px;
+  height: 556px;
+  margin: 100px auto;
+  background: rgb(255, 255, 236);
+  position: relative;
+  z-index: 0;
+}
+
+.container {
+  width: 300px;
+  height: 400px;
+  margin-left: 200px;
+  margin-top: 80px;
+  position: absolute;
+  top: 80px;
+  }
+
+.body {
+  width: 290px;
+  height: 290px;
+  border-radius: 50%;
+  background-color: rgb(249, 200, 219);
+  margin-top: -20px;
+  margin-left: 80px;
+  position: relative;
+}
+
+.arm-one {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-color: rgb(249, 200, 219);
+  margin-top: -320px;
+  margin-left: 50px;
+}
+
+.arm-two {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-color: rgb(249, 200, 219);
+  margin-top: -130px;
+  margin-left: 275px;
+}
+
+.mouth-one {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background-color: rgb(236, 125, 73);
+  margin-top: -40px;
+  margin-left: 115px;
+  position: relative;
+}
+
+.mouth-two {
+  width: 195px;
+  height: 195px;
+  border-radius: 50%;
+  background-color: rgb(255, 161, 117);
+  margin-top: -195px;
+  margin-left: 127px;
+  position: relative;
+}
+
+.foot-one {
+  width: 140px;
+  height: 85px;
+  border-radius: 50%;
+  background-color: rgb(253, 117, 107);
+  margin-top: -40px;
+  margin-left: 60px;
+}
+
+.foot-two {
+  width: 140px;
+  height: 85px;
+  border-radius: 50%;
+  background-color: rgb(253, 117, 107);
+  margin-top: -84px;
+  margin-left: 250px;
+}
+
+.eye-one {
+  width: 29px;
+  height: 51px;
+  border-radius: 50%;
+  background-color: rgb(103, 90, 172);
+  margin-top: -317px;
+  margin-left: 180px;
+  position: absolute;
+}
+
+.eye-two {
+  width: 29px;
+  height: 51px;
+  border-radius: 50%;
+  background-color: rgb(103, 90, 172);
+  margin-top: -315px;
+  margin-left: 247px;
+  position: absolute;
+}
+
+.detail {
+  width: 24px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: rgb(89, 112, 182);
+  margin-top: -306px;
+  margin-left: 182px;
+  position: absolute;
+}
+
+.detail-two {
+  width: 24px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: rgb(89, 112, 182);
+  margin-top: -304px;
+  margin-left: 249px;
+  position: absolute;
+}
+
+.cover {
+  width: 24px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(103, 90, 172);
+  margin-top: -311px;
+  margin-left: 182px;
+  position: absolute;
+}
+
+.cover-two {
+  width: 24px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(103, 90, 172);
+  margin-top: -309px;
+  margin-left: 249px;
+  position: absolute;
+}

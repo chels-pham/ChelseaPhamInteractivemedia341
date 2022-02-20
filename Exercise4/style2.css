@@ -1,0 +1,27 @@
+.heading:hover {
+    opacity: 1;
+  }
+.heading {
+    background: red;
+    padding: 16px 32px;
+    text-align: center;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+
+.heading2 {
+    background: red;
+    padding: 16px 32px;
+    text-align: center;
+    margin: 4px 2px;
+    transition-duration: 5s;
+  }
+
+.circle {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-color: rgb(236, 125, 73);
+    transition: all .2s ease-in-out; }
+.circle:hover { transform: scale(1.1); }
