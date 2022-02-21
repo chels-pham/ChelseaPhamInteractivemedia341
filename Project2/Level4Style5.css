@@ -1,4 +1,18 @@
 body {
     background-color: rgb(20, 20, 20);
-    color: #f2f2f2;
+}
+
+.p1 {
+    font-size: 100px;
+    color: rgb(209, 49, 49);
+    margin: 150px;
+}
+
+.heading {
+    color: rgb(255, 251, 251);
+    font-size: 100px;
+}
+
+marquee {
+    color: rgb(49, 209, 89);
 }
