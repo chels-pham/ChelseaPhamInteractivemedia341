@@ -118,3 +118,16 @@
 .next {
     right: 80px;
 }
+
+img {
+    max-width:80%;
+    height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.active {
+    background-color: rgb(209, 49, 49);
+    color: white;
+}
