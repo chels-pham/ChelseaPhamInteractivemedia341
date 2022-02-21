@@ -86,6 +86,22 @@
     position: relative; top: 5px; left: 1100px;
 }
 
+.box12 {
+    width: 100px;
+    border: 2px dashed black;
+    padding: 30px;
+    margin: 20px;
+    position: relative; top: 5px; left: 1210px;
+}
+
+.box13 {
+    width: 100px;
+    border: 2px dashed black;
+    padding: 30px;
+    margin: 20px;
+    position: relative; top: 5px; left: 1320px;
+}
+
 p {
     width: 1480px;
     border-style: solid;

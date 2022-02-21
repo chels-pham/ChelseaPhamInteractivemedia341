@@ -1,3 +1,8 @@
+body {
+    background-color: rgb(20, 20, 20);
+    color: #f2f2f2;
+}
+
 b {
     color: rgb(255, 10, 10);
   }
@@ -30,5 +35,5 @@ em {
 }
 
 p {
-    color: rgb(219, 219, 219);
+    color: rgb(37, 37, 37);
 }
