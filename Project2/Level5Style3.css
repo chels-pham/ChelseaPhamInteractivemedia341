@@ -1,0 +1,126 @@
+body {
+    background-color: rgb(20, 20, 20);
+    color: #f2f2f2;
+}
+
+p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 200px;
+    font-size: 50px;
+}
+
+.button1 {
+    position: relative;
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 50px;
+    color: rgb(20, 20, 20);
+    padding: 15px;
+    width: 190px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 15px;
+}
+  
+.button1:after {
+    content: "";
+    background: rgb(255, 10, 10);
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+  
+.button1:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+.button2 {
+    position: relative;
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 50px;
+    color: rgb(20, 20, 20);
+    padding: 15px;
+    width: 160px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 15px;
+}
+  
+.button2:after {
+    content: "";
+    background: rgb(28, 194, 22);
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+  
+.button2:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+.button3 {
+    position: relative;
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 50px;
+    color: rgb(20, 20, 20);
+    padding: 15px;
+    width: 180px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 15px;
+}
+  
+.button3:after {
+    content: "";
+    background: rgb(133, 20, 224);
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+  
+.button3:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+h2 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}

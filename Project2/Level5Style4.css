@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(20, 20, 20);
+}
+
+.p1 {
+    display: block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 200px;
+    font-size: 70px;
+    animation-name: anim;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+	  animation-iteration-count: infinite;
+}
+
+  @keyframes anim {
+    0%   {color: rgb(209, 49, 49);}
+    14%  {color: rgb(28, 194, 22);}
+    28%  {color: rgb(133, 20, 224);}
+    42%  {color: rgb(209, 49, 49);}
+    56%  {color: rgb(28, 194, 22);}
+    70%  {color: rgb(133, 20, 224);}
+    85%  {color: rgb(133, 20, 224);}
+    100% {color: rgb(20, 20, 20);}
+  }

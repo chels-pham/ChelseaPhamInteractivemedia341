@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(20, 20, 20);
+    color: #f2f2f2;
+}
+
+
+.p1 {
+    width: 200px;
+    height: 100px;
+    color: rgb(20, 20, 20);
+    position: relative;
+    animation: mymove 5s;
+    animation-fill-mode: forwards;
+    left: 300px;
+}
+
+.p2 {
+    width: 200px;
+    height: 100px;
+    color: rgb(20, 20, 20);
+    position: relative;
+    animation: mymove 7s;
+    animation-fill-mode: forwards;
+    left: 500px;
+    top: 275px
+}
+  
+@keyframes mymove {
+    from {top: 0px;}
+    to {top: 200px;
+    color: rgb(209, 49, 49);}
+}
+
+.p3 { 
+    font-size: 25px; 
+}
