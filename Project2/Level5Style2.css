@@ -1,6 +1,5 @@
 body {
     background-color: rgb(20, 20, 20);
-    color: #f2f2f2;
 }
 
 
@@ -33,4 +32,15 @@ body {
 
 .p3 { 
     font-size: 25px; 
+    color: rgb(49, 209, 89);
+}
+
+h3 {
+    color: #f2f2f2;
+}
+
+strong{
+    color: rgb(209, 49, 49);
+    font-size: 30px; 
+    left: 300px;
 }
