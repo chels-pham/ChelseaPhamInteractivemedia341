@@ -186,8 +186,8 @@ background: rgb(150, 200, 229);
 .name {
     position: fixed;
     color: rgb(17, 61, 87);
-    font-size: 30px;
+    font-size: 50px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
-    left: 1250px;
+    left: 1050px;
     font-weight: 500;
 }
