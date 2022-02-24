@@ -38,6 +38,10 @@ body {
   transform: scale(1.2); 
 }
 
+.body2:hover { 
+  transform: scale(1.2); 
+}
+
 .arm-one {
   width: 130px;
   height: 130px;
