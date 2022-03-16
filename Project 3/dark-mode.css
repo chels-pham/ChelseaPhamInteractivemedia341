@@ -12,7 +12,8 @@ h1 {
   color: rgb(255, 255, 255);
 }
 
-img {
+#city {
+  box-shadow: 0 5px 5px 0 rgba(250, 173, 226, 0.664);
   border-radius: 25px;
   display: block;
   margin-left: auto;

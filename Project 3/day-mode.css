@@ -9,10 +9,11 @@ h1 {
   font-size: 30px;
   font-weight:bold;
   text-align: center;
-  color: rgb(32, 63, 114);
+  color: rgb(252, 169, 169);
 }
 
-img {
+#city {
+  box-shadow: 0 5px 5px 0 rgba(33, 66, 124, 0.527);
   border-radius: 25px;
   display: block;
   margin-left: auto;
@@ -34,13 +35,13 @@ body {
   justify-content: center;
   font-family: 'Lato', sans-serif;
   margin: 0;
-  color: rgb(252, 169, 169);
+  color: rgb(255, 255, 255);
 }
 
 .music-container {
   background-color: #fff;
   border-radius: 15px;
-  box-shadow: 0 5px 5px 0 rgba(252, 169, 169, 0.6);
+  box-shadow: 0 5px 5px 0 rgba(33, 66, 124, 0.527);
   display: flex;
   padding: 20px 30px;
   position: relative;
@@ -120,7 +121,7 @@ body {
 }
 
 .music-info {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 184, 184, 0.356);
   border-radius: 15px 15px 0 0;
   position: absolute;
   top: 0;
@@ -152,7 +153,7 @@ body {
 }
 
 .progress {
-  background-color: rgb(77, 91, 112);
+  background-color: rgb(33, 66, 124);
   border-radius: 5px;
   height: 100%;
   width: 0%;
@@ -160,7 +161,7 @@ body {
 }
 
 .btn {
-  background-color: rgba(252, 169, 169, 0.6);
+  background-color: rgb(252, 169, 169);
   border: none; 
   color: white; 
   padding: 10px 14px;
@@ -182,7 +183,7 @@ body {
 }
 
 .moon {
-  background-color: rgba(252, 169, 169, 0.6);
+  background-color: rgb(252, 169, 169);
   border: none; 
   color: white; 
   padding: 10px 14px;
