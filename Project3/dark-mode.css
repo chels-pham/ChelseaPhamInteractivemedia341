@@ -166,73 +166,28 @@ body {
   position: absolute;
 }
 
-.rain:hover {
+.btn-group button {
+  background-color: rgb(44, 78, 151);
+  border: 1px solid rgb(21, 46, 99);
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+  float: left;
+  position: relative;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none;
+}
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:hover {
   background-color: rgb(250, 173, 225);
-}
-
-.thunder:hover {
-  background-color: rgb(250, 173, 225);
-}
-
-.wind:hover {
-  background-color: rgb(250, 173, 225);
-}
-
-.toggle {
-  top: 50%;
-  position: absolute;
-}
-
-.sun {
-  background-color: rgb(44, 78, 151); 
-  border: none; 
-  color: white; 
-  padding: 10px 14px;
-  font-size: 12px;
-  cursor: pointer; 
-  border-radius: 15px;
-  position: absolute;
-  top: 510px;
-  left: 883px;
-}
-
-.rain {
-  background-color: rgb(44, 78, 151); 
-  border: none; 
-  color: white; 
-  padding: 10px 14px;
-  font-size: 12px;
-  cursor: pointer; 
-  border-radius: 15px;
-  position: absolute;
-  top: 510px;
-  left: 620px;
-}
-
-.wind {
-  background-color: rgb(44, 78, 151); 
-  border: none; 
-  color: white; 
-  padding: 10px 14px;
-  font-size: 12px;
-  cursor: pointer; 
-  border-radius: 15px;
-  position: absolute;
-  top: 510px;
-  left: 800px;
-}
-
-.thunder {
-  background-color: rgb(44, 78, 151); 
-  border: none; 
-  color: white; 
-  padding: 10px 14px;
-  font-size: 12px;
-  cursor: pointer; 
-  border-radius: 15px;
-  position: absolute;
-  top: 510px;
-  left: 700px;
 }
 
 a:link {
@@ -240,8 +195,4 @@ a:link {
 }
 a:visited {
   color: rgb(255, 255, 255);
-}
-
-.sun:hover {
-  background-color: rgb(250, 173, 225);
 }

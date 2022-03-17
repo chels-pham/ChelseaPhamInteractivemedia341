@@ -159,15 +159,28 @@ body {
   transition: width 0.1s linear;
 }
 
-.rain:hover {
-  background-color: rgb(32, 63, 114);
+
+.btn-group button {
+  background-color: rgb(252, 169, 169);
+  border: 1px solid rgb(255, 242, 242);
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+  float: left;
+  position: relative;
 }
 
-.thunder:hover {
-  background-color: rgb(32, 63, 114);
+.btn-group button:not(:last-child) {
+  border-right: none;
 }
 
-.wind:hover {
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:hover {
   background-color: rgb(32, 63, 114);
 }
 
@@ -176,65 +189,9 @@ body {
   position: absolute;
 }
 
-.moon {
-  background-color: rgb(252, 169, 169);
-  border: none; 
-  color: white; 
-  padding: 10px 14px;
-  font-size: 12px;
-  cursor: pointer; 
-  border-radius: 15px;
-  position: absolute;
-  top: 510px;
-  left: 883px;
-}
-
-.rain {
-  background-color: rgb(252, 169, 169);
-  border: none; 
-  color: white; 
-  padding: 10px 14px;
-  font-size: 12px;
-  cursor: pointer; 
-  border-radius: 15px;
-  position: absolute;
-  top: 510px;
-  left: 620px;
-}
-
-.wind {
-  background-color: rgb(252, 169, 169);
-  border: none; 
-  color: white; 
-  padding: 10px 14px;
-  font-size: 12px;
-  cursor: pointer; 
-  border-radius: 15px;
-  position: absolute;
-  top: 510px;
-  left: 800px;
-}
-
-.thunder {
-  background-color: rgb(252, 169, 169);
-  border: none; 
-  color: white; 
-  padding: 10px 14px;
-  font-size: 12px;
-  cursor: pointer; 
-  border-radius: 15px;
-  position: absolute;
-  top: 510px;
-  left: 700px;
-}
-
 a:link {
   color: rgb(255, 255, 255);
 }
 a:visited {
   color: rgb(255, 255, 255);
-}
-
-.moon:hover {
-  background-color: rgb(32, 63, 114);
 }
